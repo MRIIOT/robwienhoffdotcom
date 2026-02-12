@@ -1,17 +1,17 @@
 # Rob Wienhoff
 
-> Rob Wienhoff is a Coding Logistics Expert who helps manufacturers get coding, labeling, and verification right—without slowing the line. He specializes in improving industrial coding, marking, labeling, vision verification, and secondary packaging from line audits and vendor selection to integration, operator training, and support.
+> Rob Wienhoff is a Coding Logistics Expert who helps manufacturers improve industrial coding, marking, labeling, vision verification, and secondary packaging. He ensures these critical processes are accurate and efficient without slowing down production lines.
 
-With over 20 years of experience, Rob is an independent Coding Logistics Expert based in St Charles, IL. He offers vendor-neutral consulting for industrial coding, marking, labeling, vision verification, and secondary packaging, focusing on improving line efficiency, traceability, and compliance for manufacturers in pharmaceutical, food & beverage, and automotive sectors.
+With over 20 years of experience, Rob provides vendor-neutral consulting services for line assessment, solution design, equipment selection, software integration, and operator training. Based in St Charles, IL, his expertise covers primary and secondary packaging identification, print-and-apply automation, vision and verification systems, and end-of-line automation.
 
 ## Pages
-https://rwienhoff.com/: Home page with an overview of services and testimonials.
-https://rwienhoff.com/about.html: Learn more about Rob Wienhoff, his background, timeline, and core values.
-https://rwienhoff.com/services.html: Detailed descriptions of the consulting services offered.
-https://rwienhoff.com/solutions.html: Explore specific solutions for primary packaging, secondary packaging, print-and-apply automation, vision & verification, end-of-line automation, and labels & graphics workflows.
-https://rwienhoff.com/process.html: Understand Rob's methodology, including Discover, Design, Deploy, and Improve phases.
-https://rwienhoff.com/contact.html: Contact information and options for booking a consultation.
-https://rwienhoff.com/audit.html: Request a free line audit and assessment to identify improvement opportunities.
+https://rwienhoff.com: Home page featuring an overview of services, client testimonials, and Rob's expertise.
+https://rwienhoff.com/about.html: Learn more about Rob's background, professional timeline, and core values.
+https://rwienhoff.com/services.html: Detailed descriptions of consulting services, including line audits, solution architecture, and operator training.
+https://rwienhoff.com/solutions.html: Explore specific solutions for primary packaging, secondary packaging, print-and-apply, vision systems, and more.
+https://rwienhoff.com/process.html: Understand Rob's four-step methodology: Discover, Design, Deploy, and Improve.
+https://rwienhoff.com/contact.html: Contact information and a form to get in touch or book a consultation.
+https://rwienhoff.com/audit.html: Request a free line audit and assessment to identify optimization opportunities.
 
 ## Contact
 Email: rwienhoff@robwienhoff.com
