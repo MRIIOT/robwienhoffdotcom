@@ -7,7 +7,7 @@
     "tagline": "Get coding, labeling, & verification right—without slowing the line.",
     "shortBio": "Rob helps manufacturers improve industrial coding, marking, labeling, vision verification, and secondary packaging—from line audits and vendor selection to integration, operator training, and support.",
     "fullBio": "Rob Wienhoff didn't just stumble into the world of industrial coding and automation—he built his expertise through decades of hands-on experience, relentless curiosity, and a commitment to solving real manufacturing challenges. From early days tinkering with technology to leading complex integrations for Fortune 500 companies, Rob has developed a unique perspective: success isn't about the fanciest equipment, it's about understanding your process, your people, and your goals.\n\nWith decades of experience across pharmaceutical, food & beverage, and automotive manufacturing, Rob brings a systems-first approach to industrial coding and labeling. His consulting services cover every phase—line assessment, solution design, equipment selection, software integration, and operator training—so you get more than a device. You get a reliable, compliant, future-ready identification system.\n\nUnlike manufacturers locked into single-vendor relationships, Rob brings an independent perspective. His recommendations are based solely on what works best for your specific operation—not commission structures or brand loyalty. This vendor-neutral approach has saved clients millions in unnecessary upgrades while dramatically improving line efficiency, traceability, and compliance.",
-    "yearsExperience": "20+",
+    "yearsExperience": "25+",
     "location": "St Charles, IL"
   },
   "contact": {
@@ -15,7 +15,7 @@
     "phone": "",
     "website": "https://robwienhoff.com",
     "calendlyUrl": "",
-    "responseTime": "Within one business day"
+    "responseTime": "Usually within 24 hours"
   },
   "social": {
     "linkedin": "https://www.linkedin.com/in/rob-wienhoff-5125597/",
@@ -75,7 +75,7 @@
   ],
   "services": [
     {
-      "icon": "fas fa-clipboard-check",
+      "icon": "fas fa-search",
       "title": "Line Audit & Requirements",
       "shortDesc": "On-site or remote evaluation of your current line, data sources, substrates, speeds, and compliance needs.",
       "fullDesc": "Before recommending any equipment or approach, we need to understand what's actually happening on your line. This phase is about gathering facts—not assumptions. We conduct line walkthroughs, map your data flows, analyze defect patterns, and document the real constraints you're working within: available floor space, washdown requirements, line speeds, substrate variations, and compliance obligations.",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "icon": "fas fa-drafting-compass",
+      "icon": "fas fa-search",
       "title": "Solution Architecture",
       "shortDesc": "Define the best approach for primary/secondary packaging identification, including fail-safes and reject logic.",
       "fullDesc": "With a clear picture of your environment and constraints, we develop a system architecture that addresses the root causes—not just the symptoms. This includes equipment layout, verification strategy, error-proofing mechanisms, and a detailed integration plan that accounts for your existing infrastructure. You'll see exactly how the solution fits your line before any equipment is ordered.",
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "icon": "fas fa-chalkboard-teacher",
+      "icon": "fas fa-search",
       "title": "Operator Training",
       "shortDesc": "Hands-on training and documentation so your team can run, troubleshoot, and maintain the system confidently.",
       "fullDesc": "Implementation is where most projects go sideways. We stay engaged through installation support, acceptance testing, operator training, and launch stabilization to prevent the chaos that plagues poorly managed rollouts. The goal isn't just getting equipment running—it's ensuring your team can operate and maintain the system independently from the start.",
@@ -265,7 +265,7 @@
       "description": "Unbiased recommendations based solely on what works best for your specific operation—not commission structures or brand loyalty."
     },
     {
-      "icon": "fas fa-bullseye",
+      "icon": "fas fa-search",
       "title": "Results-Focused",
       "description": "Every recommendation is backed by production data and measured by outcomes: fewer defects, faster throughput, and lower consumables cost."
     },
@@ -275,7 +275,7 @@
       "description": "We approach coding and labeling like a system, not a device. Get a clear plan, the right equipment, and the integration details that prevent downtime."
     },
     {
-      "icon": "fas fa-handshake",
+      "icon": "fas fa-search",
       "title": "Partnership Approach",
       "description": "We work hand-in-hand with your operators, engineers, and plant managers—not as outside consultants but as partners invested in your success."
     },
@@ -295,7 +295,7 @@
       "description": "From FDA requirements to retailer compliance and ISO barcode grading standards, we ensure your coding and labeling meets every regulatory obligation."
     },
     {
-      "icon": "fas fa-tachometer-alt",
+      "icon": "fas fa-search",
       "title": "Production-Ready",
       "description": "Every solution is built around the realities of your production environment—line speed, sanitation protocols, label adhesion, scan rates, and consistent print quality."
     }
@@ -330,7 +330,7 @@
   ],
   "images": {
     "heroBackground": "https://robwienhoff.com/assets/img/slider/techie3.jpg",
-    "aboutImage": "https://robwienhoff.com/assets/img/footerbar/rob.jpg",
+    "aboutImage": "https://rwienhoff.com/images/rob1.png",
     "parallaxImage1": "https://robwienhoff.com/assets/img/machine.jpg",
     "parallaxImage2": "https://robwienhoff.com/assets/img/inspect.jpg"
   },
