@@ -1,0 +1,457 @@
+{
+  "personal": {
+    "name": "Rob Wienhoff",
+    "firstName": "Rob",
+    "lastName": "Wienhoff",
+    "title": "Coding Logistics Expert",
+    "tagline": "Get coding, labeling, & verification right—without slowing the line.",
+    "shortBio": "Rob helps manufacturers improve industrial coding, marking, labeling, vision verification, and secondary packaging—from line audits and vendor selection to integration, operator training, and support.",
+    "fullBio": "Rob Wienhoff didn't just stumble into the world of industrial coding and automation—he built his expertise through decades of hands-on experience, relentless curiosity, and a commitment to solving real manufacturing challenges. From early days tinkering with technology to leading complex integrations for Fortune 500 companies, Rob has developed a unique perspective: success isn't about the fanciest equipment, it's about understanding your process, your people, and your goals.\n\nWith decades of experience across pharmaceutical, food & beverage, and automotive manufacturing, Rob brings a systems-first approach to industrial coding and labeling. His consulting services cover every phase—line assessment, solution design, equipment selection, software integration, and operator training—so you get more than a device. You get a reliable, compliant, future-ready identification system.\n\nUnlike manufacturers locked into single-vendor relationships, Rob brings an independent perspective. His recommendations are based solely on what works best for your specific operation—not commission structures or brand loyalty. This vendor-neutral approach has saved clients millions in unnecessary upgrades while dramatically improving line efficiency, traceability, and compliance.",
+    "yearsExperience": "20+",
+    "location": "St Charles, IL"
+  },
+  "contact": {
+    "email": "rwienhoff@robwienhoff.com",
+    "phone": "",
+    "website": "https://robwienhoff.com",
+    "calendlyUrl": "",
+    "responseTime": "Within one business day"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/rob-wienhoff-5125597/",
+    "twitter": "",
+    "github": "",
+    "instagram": "",
+    "youtube": "",
+    "facebook": ""
+  },
+  "branding": {
+    "siteName": "Rob Wienhoff",
+    "logoUrl": "https://robwienhoff.com/assets/img/logo.png",
+    "faviconUrl": "",
+    "lightTheme": false,
+    "colors": {
+      "primary": "#0a0a0a",
+      "secondary": "#111111",
+      "accent": "#c5a47e",
+      "text": "#ffffff",
+      "textMuted": "#999999",
+      "border": "rgba(255, 255, 255, 0.1)"
+    }
+  },
+  "heroSlides": [
+    {
+      "image": "https://robwienhoff.com/assets/img/slider/techie3.jpg",
+      "subtitle": "The Innovator",
+      "title": "Techie",
+      "description": "Driven by the Logic of Tomorrow. Rob's fascination with technology goes beyond the surface; he is deeply invested in how coding and automation can solve complex, real-world problems. Whether he's exploring the latest hardware or refining software systems, he remains a lifelong student of the digital evolution.",
+      "buttonText": "Get Started",
+      "buttonLink": "contact.html"
+    },
+    {
+      "image": "https://robwienhoff.com/assets/img/slider/business.jpg",
+      "subtitle": "The Visionary",
+      "title": "Business Owner",
+      "description": "Building Solutions, Not Just Systems. As the leader of several businesses, Rob has cultivated a reputation for precision and reliable entrepreneurship not only in the St. Charles area, but nationwide. He focuses on scaling businesses through strategic innovation, ensuring that every project reflects his commitment to quality and client success.",
+      "buttonText": "Learn More",
+      "buttonLink": "about.html"
+    },
+    {
+      "image": "https://robwienhoff.com/assets/img/slider/family.jpg",
+      "subtitle": "The Foundation",
+      "title": "Family Man",
+      "description": "Rooted in What Matters Most. Outside of the office, Rob's primary focus is his family, who serve as the ultimate inspiration for his hard work. He believes that true success is measured by the strength of your home life and the shared moments that happen away from a screen.",
+      "buttonText": "About Me",
+      "buttonLink": "about.html"
+    },
+    {
+      "image": "https://robwienhoff.com/assets/img/slider/junkie.jpg",
+      "subtitle": "The Thrill-Seeker",
+      "title": "Adrenaline Junkie",
+      "description": "Finding Clarity at High Speed. For Rob, life is best lived at full throttle, whether he's chasing the next rush or pushing his limits in high-stakes environments. This pursuit of adventure provides a necessary balance to his professional life, proving that he is just as comfortable on the edge as he is in the boardroom.",
+      "buttonText": "Contact",
+      "buttonLink": "contact.html"
+    }
+  ],
+  "services": [
+    {
+      "icon": "fas fa-clipboard-check",
+      "title": "Line Audit & Requirements",
+      "shortDesc": "On-site or remote evaluation of your current line, data sources, substrates, speeds, and compliance needs.",
+      "fullDesc": "Before recommending any equipment or approach, we need to understand what's actually happening on your line. This phase is about gathering facts—not assumptions. We conduct line walkthroughs, map your data flows, analyze defect patterns, and document the real constraints you're working within: available floor space, washdown requirements, line speeds, substrate variations, and compliance obligations.",
+      "features": [
+        "Physical line walkthrough",
+        "Data source mapping",
+        "Defect and downtime analysis",
+        "Compliance review"
+      ]
+    },
+    {
+      "icon": "fas fa-drafting-compass",
+      "title": "Solution Architecture",
+      "shortDesc": "Define the best approach for primary/secondary packaging identification, including fail-safes and reject logic.",
+      "fullDesc": "With a clear picture of your environment and constraints, we develop a system architecture that addresses the root causes—not just the symptoms. This includes equipment layout, verification strategy, error-proofing mechanisms, and a detailed integration plan that accounts for your existing infrastructure. You'll see exactly how the solution fits your line before any equipment is ordered.",
+      "features": [
+        "System layout design",
+        "Verification strategy",
+        "Error-proofing mechanisms",
+        "Integration planning"
+      ]
+    },
+    {
+      "icon": "fas fa-search",
+      "title": "Equipment & Vendor Recommendations",
+      "shortDesc": "Shortlist printers, print-and-apply, scanners/vision, conveyors, and accessories aligned to your environment.",
+      "fullDesc": "We provide vendor-neutral equipment recommendations based solely on what works best for your specific operation—not commission structures or brand loyalty. Our shortlists include printers, print-and-apply systems, scanners, vision systems, conveyors, and accessories carefully matched to your production environment, line speeds, and compliance requirements.",
+      "features": [
+        "Vendor-neutral selection",
+        "Printer & applicator matching",
+        "Scanner/vision systems",
+        "Accessory recommendations"
+      ]
+    },
+    {
+      "icon": "fas fa-network-wired",
+      "title": "Software & Network Integration",
+      "shortDesc": "Connect variable data, ERP/WMS, barcode standards, and print validation—without breaking your workflow.",
+      "fullDesc": "We connect variable data, ERP/WMS systems, barcode standards, and print validation into a seamless workflow. Our integration approach ensures that your coding and labeling systems communicate effectively with your existing business systems without disrupting current operations or requiring major infrastructure changes.",
+      "features": [
+        "ERP/WMS connectivity",
+        "Barcode standards compliance",
+        "Print validation setup",
+        "Workflow preservation"
+      ]
+    },
+    {
+      "icon": "fas fa-chalkboard-teacher",
+      "title": "Operator Training",
+      "shortDesc": "Hands-on training and documentation so your team can run, troubleshoot, and maintain the system confidently.",
+      "fullDesc": "Implementation is where most projects go sideways. We stay engaged through installation support, acceptance testing, operator training, and launch stabilization to prevent the chaos that plagues poorly managed rollouts. The goal isn't just getting equipment running—it's ensuring your team can operate and maintain the system independently from the start.",
+      "features": [
+        "Hands-on training",
+        "System documentation",
+        "Troubleshooting guides",
+        "Launch stabilization"
+      ]
+    },
+    {
+      "icon": "fas fa-headset",
+      "title": "Support & Optimization",
+      "shortDesc": "Optional 24/7 support model, spare parts planning, and continuous improvement based on downtime and defect data.",
+      "fullDesc": "A system that runs on day one isn't the same as a system that runs optimally on day 100. We offer ongoing optimization support based on real production data: uptime metrics, scan rate performance, consumables usage, and changeover times. This phase transforms a working system into a competitive advantage—squeezing out inefficiencies and adapting to changing requirements over time.",
+      "features": [
+        "24/7 support options",
+        "Spare parts planning",
+        "Continuous improvement",
+        "Performance optimization"
+      ]
+    }
+  ],
+  "solutions": [
+    {
+      "title": "Primary Packaging Identification",
+      "description": "Product-level codes are the foundation of traceability and the first line of defense in a recall. We design coding and marking strategies that deliver readable, durable, and consistent identification across substrates, whether printing on glass, plastic, film, or metal.",
+      "features": [
+        "Inkjet & laser coding",
+        "Thermal transfer printing",
+        "Substrate matching",
+        "Regulatory compliance"
+      ]
+    },
+    {
+      "title": "Secondary Packaging",
+      "description": "Case coding and carton labeling at the intersection of production and distribution. We implement solutions that meet retailer compliance requirements, maintain scanning reliability across the supply chain, and integrate cleanly with warehouse management systems.",
+      "features": [
+        "Case coding",
+        "Carton labeling",
+        "Retailer compliance",
+        "WMS integration"
+      ]
+    },
+    {
+      "title": "Print-and-Apply Automation",
+      "description": "Manual labeling doesn't scale and introduces variability. We specify and integrate print-and-apply systems tailored to packaging geometry, line speed, and floor space constraints including tamp, blow, and wipe applicators and dual-side labeling setups.",
+      "features": [
+        "Tamp & blow applicators",
+        "Dual-side labeling",
+        "Line speed matching",
+        "Conveyor integration"
+      ]
+    },
+    {
+      "title": "Vision & Verification",
+      "description": "A printed code is only as good as its readability downstream. We implement barcode verification and vision inspection systems that catch mislabels, validate print quality against ISO grading standards, and trigger reject stations before bad product leaves the line.",
+      "features": [
+        "Barcode grading",
+        "Label inspection",
+        "Reject logic",
+        "ISO compliance"
+      ]
+    },
+    {
+      "title": "End-of-Line Automation",
+      "description": "Coding and labeling are part of a broader packaging line. We help manufacturers think through conveyor layouts, case sealing, fume extraction, scanner placement, label rewinders, and palletizing considerations for a cohesive system.",
+      "features": [
+        "Conveyor layouts",
+        "Case sealing",
+        "Fume extraction",
+        "Palletizing support"
+      ]
+    },
+    {
+      "title": "Labels & Graphics Workflows",
+      "description": "The wrong label stock can undermine even the best applicator. We advise on label materials, adhesive chemistry, and facestock selection for challenging environments—freezer storage, moisture exposure, chemical contact, and outdoor durability.",
+      "features": [
+        "Material selection",
+        "Adhesive chemistry",
+        "Freezer-grade labels",
+        "Large-format graphics"
+      ]
+    }
+  ],
+  "focusAreas": {
+    "subheading": "Where we can help",
+    "heading": "Areas of Expertise",
+    "tagline": "Vendor-neutral guidance available • On-site or remote • Built for high-throughput production environments",
+    "areas": [
+      {
+        "category": "PRINT",
+        "title": "Print & Apply",
+        "image": "https://robwienhoff.com/assets/img/base/apply.jpg"
+      },
+      {
+        "category": "LABEL",
+        "title": "Barcode/Label Verification",
+        "image": "https://robwienhoff.com/assets/img/base/scan.jpg"
+      },
+      {
+        "category": "PACK",
+        "title": "Primary + Secondary Packaging",
+        "image": "https://robwienhoff.com/assets/img/base/package.jpg"
+      },
+      {
+        "category": "SHIP",
+        "title": "Automation + Integration",
+        "image": "https://robwienhoff.com/assets/img/base/automation.jpg"
+      },
+      {
+        "category": "SUPPORT",
+        "title": "24/7 Support Options",
+        "image": "https://robwienhoff.com/assets/img/base/techsupport.jpg"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "period": "2000s",
+      "title": "Foundation Years",
+      "description": "Started in industrial automation, learning every aspect of coding, marking, and verification systems from the ground up. Worked directly with operators, engineers, and plant managers to understand real-world challenges."
+    },
+    {
+      "period": "2010s",
+      "title": "Scaling Solutions",
+      "description": "Led major integrations for high-speed production environments. Developed expertise in print-and-apply, barcode verification, and vision systems across pharmaceutical, food & beverage, and automotive sectors."
+    },
+    {
+      "period": "2020s",
+      "title": "Independent Innovation",
+      "description": "Launched consulting practice to help manufacturers navigate the complex landscape of coding equipment, compliance requirements, and integration challenges without vendor bias."
+    }
+  ],
+  "philosophy": [
+    {
+      "icon": "fas fa-balance-scale",
+      "title": "Vendor-Neutral",
+      "description": "Unbiased recommendations based solely on what works best for your specific operation—not commission structures or brand loyalty."
+    },
+    {
+      "icon": "fas fa-bullseye",
+      "title": "Results-Focused",
+      "description": "Every recommendation is backed by production data and measured by outcomes: fewer defects, faster throughput, and lower consumables cost."
+    },
+    {
+      "icon": "fas fa-cogs",
+      "title": "Systems Thinking",
+      "description": "We approach coding and labeling like a system, not a device. Get a clear plan, the right equipment, and the integration details that prevent downtime."
+    },
+    {
+      "icon": "fas fa-handshake",
+      "title": "Partnership Approach",
+      "description": "We work hand-in-hand with your operators, engineers, and plant managers—not as outside consultants but as partners invested in your success."
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "title": "Continuous Improvement",
+      "description": "A system that runs on day one isn't the same as a system that runs optimally on day 100. We offer ongoing optimization based on real production data."
+    },
+    {
+      "icon": "fas fa-users",
+      "title": "Operator Confidence",
+      "description": "When your team understands the system and trusts the verification, they stop second-guessing and start producing. Training is built into every engagement."
+    },
+    {
+      "icon": "fas fa-shield-alt",
+      "title": "Compliance Assurance",
+      "description": "From FDA requirements to retailer compliance and ISO barcode grading standards, we ensure your coding and labeling meets every regulatory obligation."
+    },
+    {
+      "icon": "fas fa-tachometer-alt",
+      "title": "Production-Ready",
+      "description": "Every solution is built around the realities of your production environment—line speed, sanitation protocols, label adhesion, scan rates, and consistent print quality."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "After implementing verification and reject logic, we reduced mislabeled cases to near zero and stopped shipping errors that were costing us key accounts. Operators finally trust the line.",
+      "author": "Operations Manager",
+      "role": "Operations Manager",
+      "company": "Food & Beverage Packaging"
+    },
+    {
+      "quote": "The line audit uncovered what we'd been missing for months: the real constraint wasn't the printer—it was label adhesion failing at speed. The redesigned system improved our first-pass scan rates to over 99%.",
+      "author": "Plant Engineer",
+      "role": "Plant Engineer",
+      "company": "Industrial Manufacturing"
+    },
+    {
+      "quote": "Rob's independent assessment saved us from a six-figure mistake and got us a solution that actually fit our line constraints and growth plans.",
+      "author": "VP of Operations",
+      "role": "VP of Operations",
+      "company": "Pharmaceutical Contract Packager"
+    }
+  ],
+  "gallery": [
+    "https://robwienhoff.com/assets/img/slider/techie3.jpg",
+    "https://robwienhoff.com/assets/img/slider/business.jpg",
+    "https://robwienhoff.com/assets/img/slider/family.jpg",
+    "https://robwienhoff.com/assets/img/slider/junkie.jpg",
+    "https://robwienhoff.com/assets/img/footerbar/family.jpg",
+    "https://robwienhoff.com/assets/img/footerbar/rob.jpg"
+  ],
+  "images": {
+    "heroBackground": "https://robwienhoff.com/assets/img/slider/techie3.jpg",
+    "aboutImage": "https://robwienhoff.com/assets/img/footerbar/rob.jpg",
+    "parallaxImage1": "https://robwienhoff.com/assets/img/machine.jpg",
+    "parallaxImage2": "https://robwienhoff.com/assets/img/inspect.jpg"
+  },
+  "seo": {
+    "siteTitle": "Rob Wienhoff - Coding Logistics Expert",
+    "siteDescription": "Industrial coding, marking, labeling, vision verification, and secondary packaging consulting. From line audits and vendor selection to integration, operator training, and support.",
+    "keywords": "Industrial Coding, Labeling, Print and Apply, Barcode Verification, Vision Systems, Packaging Automation, Line Audit, Secondary Packaging, Compliance, Manufacturing",
+    "ogImage": "https://robwienhoff.com/assets/img/slider/techie3.jpg"
+  },
+  "footer": {
+    "tagline": "Get coding, labeling, & verification right—without slowing the line.",
+    "copyright": "Rob Wienhoff"
+  },
+  "process": [
+    {
+      "title": "Discover",
+      "shortDesc": "Understand before solving",
+      "fullDesc": "Before recommending any equipment or approach, we need to understand what's actually happening on your line. This phase is about gathering facts—not assumptions. We conduct line walkthroughs, map your data flows, analyze defect patterns, and document the real constraints you're working within.",
+      "deliverables": [
+        "Physical line walkthrough",
+        "Data source mapping",
+        "Defect and downtime analysis",
+        "Constraint documentation"
+      ]
+    },
+    {
+      "title": "Design",
+      "shortDesc": "Architect the solution",
+      "fullDesc": "With a clear picture of your environment and constraints, we develop a system architecture that addresses the root causes—not just the symptoms. This includes equipment layout, verification strategy, error-proofing mechanisms, and a detailed integration plan that accounts for your existing infrastructure.",
+      "deliverables": [
+        "System layout and positioning",
+        "Verification and inspection approach",
+        "Error-proofing and reject logic",
+        "Vendor-neutral equipment recommendations"
+      ]
+    },
+    {
+      "title": "Deploy",
+      "shortDesc": "Execute with precision",
+      "fullDesc": "Implementation is where most projects go sideways. We stay engaged through installation support, acceptance testing, operator training, and launch stabilization to prevent the chaos that plagues poorly managed rollouts. The goal isn't just getting equipment running—it's ensuring your team can operate and maintain the system independently.",
+      "deliverables": [
+        "Installation oversight",
+        "Factory Acceptance Testing",
+        "Operator and maintenance training",
+        "Launch stabilization"
+      ]
+    },
+    {
+      "title": "Improve",
+      "shortDesc": "Optimize continuously",
+      "fullDesc": "A system that runs on day one isn't the same as a system that runs optimally on day 100. We offer ongoing optimization support based on real production data: uptime metrics, scan rate performance, consumables usage, and changeover times. This phase transforms a working system into a competitive advantage.",
+      "deliverables": [
+        "Uptime and OEE analysis",
+        "Scan rate performance review",
+        "Consumables optimization",
+        "Preventive maintenance planning"
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "problem": "Mislabeled Products Reaching Customers",
+      "solution": "Wrong SKUs, missing lot codes, or unreadable barcodes causing chargebacks and complaints. Inline verification with automatic rejection catches errors before they leave the line."
+    },
+    {
+      "problem": "Changeovers Taking Too Long",
+      "solution": "Hours of downtime between SKUs, manual adjustments, and trial-and-error label positioning. Pre-validated job recipes and toolless adjustment cut changeover time by 60-80%."
+    },
+    {
+      "problem": "Inconsistent Print Quality",
+      "solution": "Codes fading, smearing, or becoming unreadable—especially at higher line speeds. Right technology matched to substrate and speed ensures consistent output."
+    },
+    {
+      "problem": "Labels Peeling or Not Adhering",
+      "solution": "Especially in cold storage, high humidity, or on textured/curved surfaces. Adhesive and facestock matched to environment eliminate adhesion failures."
+    },
+    {
+      "problem": "Operators Don't Trust the System",
+      "solution": "Manual workarounds, overridden alarms, and resistance to new equipment. Hands-on training and clear documentation turn operators into the system's strongest advocates."
+    },
+    {
+      "problem": "Poor Scan Rates",
+      "solution": "Barcodes failing to scan reliably across the supply chain. Proper print quality, substrate matching, and barcode grading ensure codes scan reliably everywhere."
+    },
+    {
+      "problem": "Excessive Downtime",
+      "solution": "Lines waiting for service calls and unplanned maintenance disruptions. Right-sized equipment, preventive maintenance planning, and operator training keep lines running."
+    },
+    {
+      "problem": "High Consumables Cost",
+      "solution": "Overspending on ink, labels, and ribbons with excessive waste. Optimized ink usage, proper label stock selection, and reduced waste translate directly to bottom-line savings."
+    },
+    {
+      "problem": "Vendor Lock-In",
+      "solution": "Locked into single-vendor relationships with recommendations driven by commissions, not your needs. Vendor-neutral assessment finds the best solution for your specific operation."
+    },
+    {
+      "problem": "Compliance Gaps",
+      "solution": "Existing methods struggling to meet FDA, customer, or industry traceability requirements. Comprehensive compliance review and system design ensures you meet every regulatory obligation."
+    }
+  ],
+  "audit": {
+    "title": "Free Line Audit & Assessment",
+    "subtitle": "Let's optimize your production line",
+    "description": "Book a complimentary audit to identify improvement opportunities in your coding, marking, labeling, and verification processes. Rob will follow up within one business day to schedule your audit.",
+    "benefits": [
+      {
+        "icon": "fas fa-balance-scale",
+        "title": "Vendor-Neutral",
+        "description": "Unbiased recommendations based on your specific environment and goals."
+      },
+      {
+        "icon": "fas fa-video",
+        "title": "On-Site or Remote",
+        "description": "Flexible format to fit your schedule and facility access requirements."
+      },
+      {
+        "icon": "fas fa-file-alt",
+        "title": "Actionable Report",
+        "description": "Walk away with a clear roadmap of findings and prioritized next steps."
+      }
+    ]
+  }
+}
