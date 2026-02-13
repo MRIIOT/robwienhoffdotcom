@@ -11,6 +11,7 @@ const siteConfig = {
     name: "Your Name",
     firstName: "Your",
     lastName: "Name",
+    profileType: "person",  // "person" or "company" — controls I/My vs We/Our across the site
     title: "Your Professional Title",
     tagline: "Your compelling tagline goes here",
     shortBio: "A brief 1-2 sentence description of who you are and what you do.",
