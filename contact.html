@@ -89,7 +89,7 @@
           <div class="section-header">
             <span class="sub-heading">Get In Touch</span>
             <h2>Let's Start a Conversation</h2>
-            <p>Have a question? Want to discuss a potential project? I'd love to hear from you.</p>
+            <p data-pronoun data-pronoun-person="Have a question? Want to discuss a potential project? I'd love to hear from you." data-pronoun-company="Have a question? Want to discuss a potential project? We'd love to hear from you.">Have a question? Want to discuss a potential project? I'd love to hear from you.</p>
           </div>
 
           <div class="contact-info-item">
@@ -117,7 +117,7 @@
           </div>
 
           <div style="margin-top: 40px;">
-            <h5 style="margin-bottom: 20px;">Connect With Me</h5>
+            <h5 style="margin-bottom: 20px;" data-pronoun data-pronoun-person="Connect With Me" data-pronoun-company="Connect With Us">Connect With Me</h5>
             <div class="footer-social" data-template="socialLinks"></div>
           </div>
         </div>
@@ -248,7 +248,9 @@
         if (formContainer) {
           var successMsg = document.createElement('div');
           successMsg.className = 'form-success';
-          successMsg.innerHTML = '<div style="background: rgba(68, 255, 68, 0.1); border: 1px solid #44ff44; padding: 20px; margin-bottom: 20px; text-align: center;"><i class="fas fa-check-circle" style="color: #44ff44; font-size: 24px; margin-bottom: 10px; display: block;"></i><p style="color: #44ff44; margin: 0;">Thank you for your message! I will get back to you soon.</p></div>';
+          var isCompany = window.TemplateEngine && window.TemplateEngine._isCompany;
+          var replyText = isCompany ? 'Thank you for your message! We will get back to you soon.' : 'Thank you for your message! I will get back to you soon.';
+          successMsg.innerHTML = '<div style="background: rgba(68, 255, 68, 0.1); border: 1px solid #44ff44; padding: 20px; margin-bottom: 20px; text-align: center;"><i class="fas fa-check-circle" style="color: #44ff44; font-size: 24px; margin-bottom: 10px; display: block;"></i><p style="color: #44ff44; margin: 0;">' + replyText + '</p></div>';
           formContainer.insertBefore(successMsg, formContainer.firstChild);
         }
       }
