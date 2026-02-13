@@ -111,6 +111,7 @@
 
       this.applyBranding();
       this.applyPersonalInfo();
+      this.applyPronouns();
       this.applyContact();
       this.applySocial();
       this.applyHeroSlides();
@@ -200,6 +201,34 @@
           el.innerHTML = personal.fullBio.split('\n\n').map(p => `<p>${p}</p>`).join('');
         });
       }
+    },
+
+    // ==========================================
+    // PRONOUNS (Person vs Company: I/My vs We/Our)
+    // ==========================================
+    applyPronouns: function() {
+      const personal = (this.config.personal && Object.keys(this.config.personal).length > 0)
+        ? this.config.personal
+        : (window.siteConfig?.personal || {});
+      const isCompany = personal.profileType === 'company';
+
+      // Apply to elements with data-pronoun attribute
+      // These elements contain template text with person-default pronouns
+      document.querySelectorAll('[data-pronoun]').forEach(el => {
+        if (isCompany) {
+          el.textContent = el.getAttribute('data-pronoun-company') || el.textContent;
+        } else {
+          el.textContent = el.getAttribute('data-pronoun-person') || el.textContent;
+        }
+      });
+
+      // Also update the JSON-LD schema type
+      this._isCompany = isCompany;
+    },
+
+    // Helper to get the correct pronoun form
+    pronoun: function(personForm, companyForm) {
+      return this._isCompany ? companyForm : personForm;
     },
 
     // ==========================================
@@ -853,10 +882,11 @@
         setMeta('name', 'twitter:site', twHandle);
       }
 
-      // JSON-LD Person structured data
+      // JSON-LD structured data (Person or Organization based on profileType)
+      var schemaType = this._isCompany ? 'Organization' : 'Person';
       var jsonLd = {
         '@context': 'https://schema.org',
-        '@type': 'Person',
+        '@type': schemaType,
         name: personal.name || '',
         jobTitle: personal.title || '',
         description: seo.siteDescription || personal.shortBio || '',
