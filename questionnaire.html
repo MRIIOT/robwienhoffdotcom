@@ -449,9 +449,24 @@
       border-color: var(--text-muted);
     }
 
-    .theme-option.selected {
+    .theme-option.selected,
+    .profile-type-option.selected {
       border-color: var(--accent);
       background: rgba(233, 69, 96, 0.1);
+    }
+
+    .profile-type-option {
+      flex: 1;
+      padding: 20px;
+      border: 2px solid var(--border);
+      border-radius: 12px;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .profile-type-option:hover {
+      border-color: var(--text-muted);
     }
 
     .theme-option .preview {
@@ -844,6 +859,24 @@
         <div class="section-header">
           <h2>Personal Information</h2>
           <p>Tell us about yourself. This information will appear throughout your site.</p>
+        </div>
+
+        <div class="form-group">
+          <label>Profile Type</label>
+          <div class="theme-toggle">
+            <div class="profile-type-option person selected" onclick="selectProfileType('person')">
+              <div style="font-size: 32px; margin-bottom: 8px;"><i class="fas fa-user"></i></div>
+              <strong>Person</strong>
+              <p style="font-size: 12px; color: var(--text-muted);">Uses "I" / "My" across the site</p>
+            </div>
+            <div class="profile-type-option company" onclick="selectProfileType('company')">
+              <div style="font-size: 32px; margin-bottom: 8px;"><i class="fas fa-building"></i></div>
+              <strong>Company</strong>
+              <p style="font-size: 12px; color: var(--text-muted);">Uses "We" / "Our" across the site</p>
+            </div>
+          </div>
+          <input type="hidden" id="profileType" value="person">
+          <p class="help-text">Choose whether this site represents an individual or a company</p>
         </div>
 
         <div class="form-row">
@@ -1577,6 +1610,9 @@
         setValue('fullBio', c.personal.fullBio);
         setValue('yearsExperience', c.personal.yearsExperience);
         setValue('location', c.personal.location);
+        if (c.personal.profileType) {
+          selectProfileType(c.personal.profileType);
+        }
       }
 
       // Contact
@@ -2112,6 +2148,16 @@
       document.getElementById('lightTheme').value = theme === 'light' ? 'true' : 'false';
     }
 
+    function selectProfileType(type) {
+      document.querySelectorAll('.profile-type-option').forEach(opt => {
+        opt.classList.remove('selected');
+        if (opt.classList.contains(type)) {
+          opt.classList.add('selected');
+        }
+      });
+      document.getElementById('profileType').value = type;
+    }
+
     // ==========================================
     // Image Preview Updates
     // ==========================================
@@ -2145,6 +2191,7 @@
           name: `${getValue('firstName')} ${getValue('lastName')}`,
           firstName: getValue('firstName'),
           lastName: getValue('lastName'),
+          profileType: getValue('profileType') || 'person',
           title: getValue('title'),
           tagline: getValue('tagline'),
           shortBio: getValue('shortBio'),
