@@ -283,7 +283,9 @@
         if (formContainer) {
           var successMsg = document.createElement('div');
           successMsg.className = 'form-success';
-          successMsg.innerHTML = '<div style="background: rgba(68, 255, 68, 0.1); border: 1px solid #44ff44; padding: 20px; margin-bottom: 20px; text-align: center;"><i class="fas fa-check-circle" style="color: #44ff44; font-size: 24px; margin-bottom: 10px; display: block;"></i><p style="color: #44ff44; margin: 0;">Thank you for your interest! I will reach out within 24 hours to schedule your free call.</p></div>';
+          var isCompany = window.TemplateEngine && window.TemplateEngine._isCompany;
+          var replyText = isCompany ? 'Thank you for your interest! We will reach out within 24 hours to schedule your free call.' : 'Thank you for your interest! I will reach out within 24 hours to schedule your free call.';
+          successMsg.innerHTML = '<div style="background: rgba(68, 255, 68, 0.1); border: 1px solid #44ff44; padding: 20px; margin-bottom: 20px; text-align: center;"><i class="fas fa-check-circle" style="color: #44ff44; font-size: 24px; margin-bottom: 10px; display: block;"></i><p style="color: #44ff44; margin: 0;">' + replyText + '</p></div>';
           formContainer.insertBefore(successMsg, formContainer.firstChild);
           formContainer.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
